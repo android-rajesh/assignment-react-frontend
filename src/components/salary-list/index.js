@@ -49,7 +49,7 @@ export const SalaryList = () => {
                             onInputChange: () => {
 
                             },
-                            defaultPageSize: 100,
+                            defaultPageSize: 20,
                         }}
                     />
 				 

@@ -21,6 +21,7 @@ export const HomePage = () => {
                 <h2>Salary</h2>
                 
                 <SalaryList />
+                
                 </Wrapper>
              
         </>

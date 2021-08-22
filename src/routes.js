@@ -4,14 +4,15 @@ import history from "./history";
 import { BASE_URL, RoutesTable } from "./constants";
 import { HomePage } from "./pages/home-page";
 import CreateReactPage from "./pages/create-react-page";
+import { ChartPage } from "./pages/chart-page";
  
 function RouteConfig() {
   return (
     <Router history={history}>
       <Switch>
-        <Route path={`${BASE_URL}/${RoutesTable.Home}`} exact={true}>
+        <Route path={`${BASE_URL}${RoutesTable.Home}`} exact={true}>
           <div className="App">
-            <HomePage />
+            <ChartPage />
           </div>
         </Route>
         <Route path={`${BASE_URL}`} exact={true}>
