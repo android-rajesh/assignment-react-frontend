@@ -13,8 +13,13 @@ export const HomePage = () => {
              
                 <Wrapper>
                 Hello world.
+                <h2>Department</h2>
                 <DepartmentList />
+                <h2>Employee</h2>
+                
                 <EmployeeList />
+                <h2>Salary</h2>
+                
                 <SalaryList />
                 </Wrapper>
              
