@@ -1,0 +1,49 @@
+@mixin flex {
+  display: -webkit-flex;
+  display: flex;
+}
+ 
+
+$width-galaxy-fold: 280px;
+$width-iphoneSe: 320px;
+$width-moto-g4: 360px;
+$width-iphone6-7-8: 375px;
+$width-iphoneX: 375px;
+$width-iphone6-7-8-plus: 414px;
+$width-surface-duo: 540px;
+$width-ipad: 768px;
+$width-ipad-pro: 1024px;
+
+$screen800-by600: 800px;
+$screen1024-by768: 1024px;
+$screen1366-by768: 1366px;
+$screen1920-by1080: 1920px;
+$screen1520-by1080: 1520px;
+
+@mixin for-screen($size) {
+  @if $size == $width-surface-duo {
+    @media (max-width: $width-surface-duo) {
+      @content;
+    }
+  } @else if $size == $screen800-by600 {
+    @media (max-width: $screen800-by600) {
+      @content;
+    }
+  } @else if $size == $screen1024-by768 {
+    @media (min-width: $screen800-by600) and (max-width: $screen1024-by768) {
+      @content;
+    }
+  } @else if $size == $screen1366-by768 {
+    @media (min-width: $screen1024-by768) and (max-width: $screen1366-by768) {
+      @content;
+    }
+  } @else if $size == $screen1920-by1080 {
+    @media (min-width: $screen1366-by768) and (max-width: $screen1920-by1080) {
+      @content;
+    }
+  } @else if $size == $screen1520-by1080 {
+    @media (min-width: $screen1520-by1080) {
+      @content;
+    }
+  }
+}

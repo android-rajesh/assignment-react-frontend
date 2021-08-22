@@ -1,6 +1,34 @@
-# Getting Started with Create React App
+# React frontend - assignment involving springboot api and react UI. 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This uses redux.
+ant design.
+
+# .env file
+
+    REACT_APP_SERVICE_URL=http://localhost:8080/api
+
+
+# .env.production file
+
+In case you generate a production build, make sure you have this file in your environment.
+
+    REACT_APP_SERVICE_URL=/api
+
+# Redux
+
+This application uses redux and redux thunk to save states.
+
+
+# Scss and mixins.
+
+Making responsive content targetting different browser width.
+
+Mixins are a way to target different browser resolutions and getting css code minimal.
+
+Have a look at \_mixins.scss.
 
 ## Available Scripts
 
