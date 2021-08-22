@@ -1,19 +1,20 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
     employeeState: {
-    current: [],
+    current: { model: []},
     pending: false,
   },
   departmentState: {
-    current: [],
+    current: { model: []},
     pending: false,
   },
   salaryState: {
-    current: [],
+    current: { model: []},
     pending: false,
   },
    messageState: {
-    current: {},
+    current: { model: []},
     message: null,
   },
+  apiCallsInProgress: 0
 };

@@ -1,5 +1,7 @@
 import { SERVICE_URL } from "./environment";
 
+export const BASE_URL = "/";
+
 export const CONTENT_TYPE_APPLICATION_JSON_HEADER = {
   "Content-Type": "application/json",
 };
@@ -10,5 +12,6 @@ export const API = {
 }
 
 export const RoutesTable = {
-  Home: "/"
+  Home: "/home",
+  ReactDefault: "/react"
 };

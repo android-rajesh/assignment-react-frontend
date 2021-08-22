@@ -1,8 +1,8 @@
 import * as types from "./actionTypes";
 import { beginApiCall } from "./apiStatusActions";
-import { setErrorMessage } from "./messageStateActions";
 import { getSalaryList } from "../../services/api-service";
 import { ErrorDictionary } from "../../services/error-dictionary";
+import { setErrorMessage } from "./messageActions";
 
 export function loadSalaryListSuccess(model) {
   return { type: types.SALARY_LIST_SUCCESS, model };

@@ -1,6 +1,6 @@
 import * as types from "./actionTypes";
 import { beginApiCall } from "./apiStatusActions";
-import { setErrorMessage } from "./messageStateActions";
+import { setErrorMessage } from "./messageActions";
 import { getDepartmentList } from "../../services/api-service";
 import { ErrorDictionary } from "../../services/error-dictionary";
 
