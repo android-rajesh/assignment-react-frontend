@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh",
+    "departmentId": 1
+  },
+  {
+    "id": 2,
+    "name": "Employee1",
+    "departmentId": 1
+  },
+  {
+    "id": 3,
+    "name": "Employee2",
+    "departmentId": 1
+  },
+  {
+    "id": 4,
+    "name": "Employee3",
+    "departmentId": 1
+  },
+  {
+    "id": 5,
+    "name": "Employee4",
+    "departmentId": 1
+  },
+  {
+    "id": 6,
+    "name": "Scientist1",
+    "departmentId": 2
+  },
+  {
+    "id": 7,
+    "name": "Scientist2",
+    "departmentId": 2
+  },
+  {
+    "id": 8,
+    "name": "Scientist3",
+    "departmentId": 2
+  },
+  {
+    "id": 9,
+    "name": "Scientist4",
+    "departmentId": 2
+  },
+  {
+    "id": 10,
+    "name": "Scientist5",
+    "departmentId": 2
+  }
+]
